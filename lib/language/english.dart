@@ -1,5 +1,5 @@
 class Strings {
-  static const String appName = "IpLive";
+  static const String appName = "VoIran";
   static const String appVersion = '1.0.0';
 
   // common

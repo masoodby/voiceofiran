@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/Runner-master.dia",
+    "emit-module-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/Runner-master-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/Runner-master-emit-module.dia",
+    "swift-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/Runner-master.swiftdeps"
+  },
+  "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Volumes/Archive/amir/main-files/iplive-app/ios/Runner/AppDelegate.swift" : {
+    "const-values" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  }
+}

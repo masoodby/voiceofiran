@@ -1,0 +1,34 @@
+dependencies: \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/src/core/tsi/alts/handshaker/transport_security_common_api.cc \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/support/port_platform.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/port_platform.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/src/core/tsi/alts/handshaker/transport_security_common_api.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/slice.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/slice.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/gpr_slice.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/support/sync.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/gpr_types.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/sync.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/sync_generic.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/atm.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/atm_gcc_atomic.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/sync_posix.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/slice_buffer.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/support/alloc.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/support/log.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/log.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/src/core/ext/upb-generated/src/proto/grpc/gcp/transport_security_common.upb.h \
+  gRPC-Core/third_party/upb/upb/msg_internal.h \
+  gRPC-Core/third_party/upb/upb/extension_registry.h \
+  gRPC-Core/third_party/upb/upb/upb.h \
+  gRPC-Core/third_party/upb/upb/arena.h \
+  gRPC-Core/third_party/upb/upb/port_def.inc \
+  gRPC-Core/third_party/upb/upb/port_undef.inc \
+  gRPC-Core/third_party/upb/upb/status.h \
+  gRPC-Core/third_party/upb/upb/internal/table.h \
+  gRPC-Core/third_party/upb/upb/msg.h \
+  gRPC-Core/third_party/upb/upb/decode.h \
+  gRPC-Core/third_party/upb/upb/decode_fast.h \
+  gRPC-Core/third_party/upb/upb/encode.h \
+  gRPC-Core/third_party/upb/upb/upb.hpp
