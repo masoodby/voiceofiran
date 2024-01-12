@@ -1,0 +1,120 @@
+name: iplive
+description: A live stream app for android Television
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: 1.0.6
+  # manually added dependency
+  get: 4.6.6
+  flutter_screenutil: 5.9.0
+  google_fonts: 6.1.0
+  font_awesome_flutter: 10.6.0
+  country_code_picker: ^3.0.0
+  material_design_icons_flutter: 7.0.7296
+  get_storage: ^2.1.1
+  logger: 2.0.2+1
+  pin_code_fields: 8.0.1
+  intl: ^0.18.1
+  image_picker: 1.0.4
+  dotted_line: ^3.2.2
+  flutter_svg: 2.0.9
+  video_player: 2.8.1
+  firebase_database: 10.3.3
+  cloud_firestore: 4.12.2
+  firebase_storage: 11.4.1
+  firebase_core: 2.21.0
+  carousel_slider: ^4.2.1
+  url_launcher: 6.2.1
+  firebase_auth: 4.12.1
+  google_mobile_ads: 3.1.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+  flutter_rating_bar: ^4.0.1
+  flutter_inappwebview: ^5.8.0
+  device_info_plus: ^9.1.0
+  chewie: ^1.7.1
+
+dependency_overrides:
+  modal_bottom_sheet: ^3.0.0-pre
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: 2.0.3
+  flutter_launcher_icons: 0.13.1
+  # flutter_app_name: ^0.1.0
+  change_app_package_name: ^1.1.0
+  build_runner:
+  flutter_gen_runner:
+
+
+flutter_app_name:
+ name: "IPLive"
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/app_launcher.png"
+
+
+flutter_gen:
+  output: lib/custom_assets/ # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/background/
+    - assets/clipart/
+    - assets/icon/
+    - assets/logo/
+    - assets/onboard/
+
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
