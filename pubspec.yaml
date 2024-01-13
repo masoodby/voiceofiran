@@ -48,6 +48,7 @@ dependencies:
   flutter_inappwebview: ^5.8.0
   device_info_plus: ^9.1.0
   chewie: ^1.7.1
+  dio: ^5.4.0
 
 dependency_overrides:
   modal_bottom_sheet: ^3.0.0-pre
@@ -94,6 +95,7 @@ flutter:
     - assets/icon/
     - assets/logo/
     - assets/onboard/
+    - assets/video/1.mp4
 
 
   # For details regarding adding assets from package dependencies, see

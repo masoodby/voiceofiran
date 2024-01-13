@@ -1,7 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/foundation.dart';
 
 import '../../../../utils/basic_screen_imports.dart';
 import '../../../routes/routes.dart';
+import '../../../backend/api/api.dart';
 
 class HomeScreenController extends GetxController {
   Stream<QuerySnapshot<Map<String, dynamic>>> getBannerData() {
@@ -16,7 +18,16 @@ class HomeScreenController extends GetxController {
     return FirebaseFirestore.instance.collection("livePodcast").snapshots();
   }
 
+  Stream catData() {
+    final api = ApiProvider();
+    final apidata = api.getCategories();
+    // print("our test $apidata");
+    return apidata;
+  }
+
   Stream<QuerySnapshot<Map<String, dynamic>>> getCategoryData() {
+    catData();
+
     return FirebaseFirestore.instance.collection("categoriesData").snapshots();
   }
 

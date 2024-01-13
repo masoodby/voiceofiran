@@ -1,0 +1,4 @@
+https://voice-of-iran-republic.com/tv.html
+https://ive.voice-of-iran-republic.com/hls/live/index.m3u8
+https://voice-of-iran-republic.com/api/programs
+https://voice-of-iran-republic.com/api/episode/$programid/$episodeid
