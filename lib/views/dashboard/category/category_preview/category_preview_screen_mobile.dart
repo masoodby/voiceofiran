@@ -14,6 +14,7 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("screen $data");
     return Scaffold(
       appBar: AppBar(
         leading: InkWell(
@@ -26,7 +27,7 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
         ),
         centerTitle: true,
         title: TitleHeading3Widget(
-          text: data["data"]["title"].toString(),
+          text: data["title"].toString(),
         ),
       ),
       body: _bodyWidget(context),
@@ -40,7 +41,6 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
       scrollDirection: Axis.vertical,
       itemCount: 1,
       physics: const BouncingScrollPhysics(),
-      
       itemBuilder: (BuildContext context, int index) {
         String streamUrl = data["data"]["url"];
         String imagePath = data["data"]["image"];
@@ -51,13 +51,13 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
             ? InkWell(
                 onTap: () {
                   controller.goToDetailsScreen(
-                      streamUrl, imagePath, title, subTitle, summary,data);
+                      streamUrl, imagePath, title, subTitle, summary, data);
                 },
                 child: CategoryDetailsWidget(
                   imagePath: imagePath,
                   title: title,
                   subTitle: subTitle,
-                 itemCount: data["data"].length,
+                  itemCount: data["data"].length,
                 ),
               )
             : const SizedBox();

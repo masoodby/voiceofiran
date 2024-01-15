@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
 
@@ -33,14 +35,7 @@ class HomeScreenController extends GetxController {
 
   var selectedPageIndex = 0.obs;
 
-  Stream getProgram(programId) {
-    final api = ApiProvider();
-    final apidata = api.getPrograms(programId);
-    return apidata;
-  }
-
-  goToCategoryScreen(programId) {
-    getProgram(programId);
+  goToCategoryScreen() {
     Get.toNamed(Routes.categoryScreen);
   }
 
@@ -52,18 +47,36 @@ class HomeScreenController extends GetxController {
     Get.toNamed(Routes.settingsScreen);
   }
 
+  getProgram(programId) async {
+    final api = ApiProvider();
+
+    final apidata = await api.getPrograms(programId);
+    
+    // print("myprog  $json");
+    
+    return apidata;
+  }
+
   goToCategoryPreviewScreen(data) {
+    // final api = ApiProvider();
+    // final apidata = api.getPrograms(data);
+    // print(apidata);
+   
+    final myProg = getProgram(data); 
+    // final json = jsonEncode(myProg);
+    print("mydata: $myProg");
     // Get.toNamed(
     //   Routes.detailsScreen,
     //   arguments: [
-    //     {'streamUrl': data["url"]},
-    //     {'imagePath': data["image"]},
-    //     {'title': data["title"]},
+    //     {'streamUrl': mydata["url"]},
+    //     {'imagePath': mydata["image"]},
+    //     {'title': mydata["title"]},
     //     {'subTitle': ""},
-    //     {'summary': data["summary"]},
+    //     {'summary': mydata["summary"]},
     //     {'data': data},
     //   ],
     // );
-    Get.toNamed(Routes.categoryPreviewScreen, arguments: {'data': data});
+
+    // Get.toNamed(Routes.categoryPreviewScreen, arguments: {'data': myProg});
   }
 }
