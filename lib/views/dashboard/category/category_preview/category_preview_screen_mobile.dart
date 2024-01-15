@@ -26,7 +26,7 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
         ),
         centerTitle: true,
         title: TitleHeading3Widget(
-          text: data["data"]["name"].toString(),
+          text: data["data"]["title"].toString(),
         ),
       ),
       body: _bodyWidget(context),
@@ -38,25 +38,26 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
     return ListView.builder(
       shrinkWrap: true,
       scrollDirection: Axis.vertical,
-      itemCount: data["data"]["data"].length,
+      itemCount: 1,
       physics: const BouncingScrollPhysics(),
+      
       itemBuilder: (BuildContext context, int index) {
-        String streamUrl = data["data"]["data"][index]["url"];
-        String imagePath = data["data"]["data"][index]["banner"];
-        String title = data["data"]["data"][index]["title"];
-        String subTitle = data["data"]["data"][index]["subTitle"];
-        String summary = data["data"]["data"][index]["summary"];
+        String streamUrl = data["data"]["url"];
+        String imagePath = data["data"]["image"];
+        String title = data["data"]["title"];
+        String subTitle = "";
+        String summary = data["data"]["summary"];
         return data.isNotEmpty
             ? InkWell(
                 onTap: () {
                   controller.goToDetailsScreen(
-                      streamUrl, imagePath, title, subTitle, summary,data["data"]["data"]);
+                      streamUrl, imagePath, title, subTitle, summary,data);
                 },
                 child: CategoryDetailsWidget(
                   imagePath: imagePath,
                   title: title,
                   subTitle: subTitle,
-                 // itemCount: data["data"]["data"].length,
+                 itemCount: data["data"].length,
                 ),
               )
             : const SizedBox();

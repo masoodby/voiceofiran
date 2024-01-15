@@ -11,7 +11,7 @@ class CategoryDetailsWidget extends StatelessWidget {
       {super.key,
       required this.imagePath,
       required this.title,
-      required this.subTitle,
+      required this.subTitle, required itemCount,
 
       });
 

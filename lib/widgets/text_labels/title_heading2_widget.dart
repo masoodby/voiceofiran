@@ -34,8 +34,9 @@ class TitleHeading2Widget extends StatelessWidget {
       opacity: opacity,
       child: Padding(
         padding: padding,
-        child: Text(
-          text.tr,
+        child: Text(  
+          textDirection:TextDirection.rtl,        
+          text,
           style: Get.isDarkMode
               ? CustomStyle.darkHeading2TextStyle.copyWith(
                   fontSize: fontSize, fontWeight: fontWeight, color: color)

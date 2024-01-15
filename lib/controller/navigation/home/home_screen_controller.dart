@@ -33,7 +33,14 @@ class HomeScreenController extends GetxController {
 
   var selectedPageIndex = 0.obs;
 
-  goToCategoryScreen() {
+  Stream getProgram(programId) {
+    final api = ApiProvider();
+    final apidata = api.getPrograms(programId);
+    return apidata;
+  }
+
+  goToCategoryScreen(programId) {
+    getProgram(programId);
     Get.toNamed(Routes.categoryScreen);
   }
 
@@ -46,6 +53,17 @@ class HomeScreenController extends GetxController {
   }
 
   goToCategoryPreviewScreen(data) {
+    // Get.toNamed(
+    //   Routes.detailsScreen,
+    //   arguments: [
+    //     {'streamUrl': data["url"]},
+    //     {'imagePath': data["image"]},
+    //     {'title': data["title"]},
+    //     {'subTitle': ""},
+    //     {'summary': data["summary"]},
+    //     {'data': data},
+    //   ],
+    // );
     Get.toNamed(Routes.categoryPreviewScreen, arguments: {'data': data});
   }
 }

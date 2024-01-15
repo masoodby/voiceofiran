@@ -93,13 +93,13 @@ class VideoPlayerScreenMobile extends StatelessWidget {
           return InkWell(
             onTap: () {
               controller.showVideoPlayer.value = true;
-              controller.videoUrl.value = data[index]['url'];
-              controller.title.value = data[index]['title'];
-              controller.subTitle.value = data[index]['subTitle'];
+              controller.videoUrl.value = data['url'];
+              controller.title.value = data['title'];
+              controller.subTitle.value = "";
               final videoPlayerController =
                   Get.put(VideoPlayerScreenController());
               videoPlayerController.videoUrl.value =
-                  data[index]['url'].toString();
+                  data['url'].toString();
               Get.back();
               Get.toNamed(
                 Routes.videoPlayerScreen,
@@ -123,7 +123,7 @@ class VideoPlayerScreenMobile extends StatelessWidget {
                     height: MediaQuery.of(context).size.height * 0.14,
                     child: CachedNetworkImage(
                       fit: BoxFit.cover,
-                      imageUrl: data[index]['banner'],
+                      imageUrl: data['image'],
                       placeholder: (context, url) => Shimmer.fromColors(
                         baseColor: Colors.grey[300]!,
                         // Choose your shimmer base color
@@ -145,7 +145,7 @@ class VideoPlayerScreenMobile extends StatelessWidget {
                     crossAxisAlignment: crossCenter,
                     children: [
                       TitleHeading5Widget(
-                        text: data[index]['title'],
+                        text: data['title'],
                         fontSize: DeviceInfo.isTv
                             ? Dimensions.headingTextSize8
                             : Dimensions.headingTextSize4,
@@ -156,7 +156,7 @@ class VideoPlayerScreenMobile extends StatelessWidget {
                       ),
                       verticalSpace(Dimensions.heightSize * .25),
                       TitleHeading5Widget(
-                        text: data[index]['subTitle'],
+                        text: "",
                         fontSize: DeviceInfo.isTv
                             ? Dimensions.headingTextSize8
                             : Dimensions.headingTextSize5,
