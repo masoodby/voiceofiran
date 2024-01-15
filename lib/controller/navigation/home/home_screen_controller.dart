@@ -47,24 +47,15 @@ class HomeScreenController extends GetxController {
     Get.toNamed(Routes.settingsScreen);
   }
 
-  getProgram(programId) async {
+  goToCategoryPreviewScreen(data) async {
     final api = ApiProvider();
+    final moein = await api.getPrograms(data).then((value) => value);
+    print(moein["episodes"]);
 
-    final apidata = await api.getPrograms(programId);
-    
-    // print("myprog  $json");
-    
-    return apidata;
-  }
-
-  goToCategoryPreviewScreen(data) {
-    // final api = ApiProvider();
-    // final apidata = api.getPrograms(data);
-    // print(apidata);
-   
-    final myProg = getProgram(data); 
+    // final moein = jsonEncode(myProg);
+    // print('do something $moein');
     // final json = jsonEncode(myProg);
-    print("mydata: $myProg");
+    // print("mydata: $myProg");
     // Get.toNamed(
     //   Routes.detailsScreen,
     //   arguments: [

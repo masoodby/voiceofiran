@@ -14,14 +14,11 @@ class ApiProvider {
     }
   }
 
-  Future getPrograms(programId) async {
-    // print("api.response = $programId");
+  Future<Map<String, dynamic>> getPrograms(programId) async {
     try {
       final response = await dio.get(
           'https://voice-of-iran-republic.com/api/programs/${programId["code"]}');
 
-      // final myapi = response;
-      // print("api.dart ${response.data["episodes"]}");
       return response.data;
     } catch (e) {
       rethrow;
