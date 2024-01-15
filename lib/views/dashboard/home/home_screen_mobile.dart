@@ -3,6 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:iplive/main.dart';
 import 'package:iplive/widgets/others/video_player_view.dart';
+import 'package:iplive/widgets/webview/webView.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:video_player/video_player.dart';
 
@@ -38,7 +39,8 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
         centerTitle: true,
         automaticallyImplyLeading: false,
       ),
-      body: _bodyWidget(context),
+      body: const WebView(),
+      // body: _bodyWidget(context),
     );
   }
 
@@ -62,7 +64,6 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
   }
 
   _bannerWidget(context) {
-
     // return StreamBuilder(
     //   stream: controller.getBannerData(),
     //   builder: (context, snapshot) {
@@ -182,7 +183,6 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
     //   },
     // );
     return const SizedBox(
-      
       child: VideoPlayerView(
         // url: "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
         url: "https://tv.iranrepublictv.com/hls/test/index.m3u8",
