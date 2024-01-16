@@ -98,7 +98,7 @@ class CategoryScreenMobile extends StatelessWidget {
                     children: [
                       Padding(
                         padding: EdgeInsets.symmetric(
-                            horizontal: Dimensions.paddingSize * .5),
+                            horizontal: Dimensions.paddingSize * .1),
                         child: CachedNetworkImage(
                           imageUrl: categoryImageUrl,
                           maxHeightDiskCache: 200 * 9,

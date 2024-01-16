@@ -49,8 +49,8 @@ class HomeScreenController extends GetxController {
 
   goToCategoryPreviewScreen(data) async {
     final api = ApiProvider();
-    final moein = await api.getPrograms(data).then((value) => value);
-    print(moein["episodes"]);
+    final apiresponse = await api.getPrograms(data).then((value) => value);
+    print(apiresponse["episodes"]);
 
     // final moein = jsonEncode(myProg);
     // print('do something $moein');
@@ -68,6 +68,6 @@ class HomeScreenController extends GetxController {
     //   ],
     // );
 
-    // Get.toNamed(Routes.categoryPreviewScreen, arguments: {'data': myProg});
+    Get.toNamed(Routes.categoryPreviewScreen, arguments: {'data': apiresponse});
   }
 }

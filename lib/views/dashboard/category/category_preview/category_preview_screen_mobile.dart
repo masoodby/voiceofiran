@@ -11,7 +11,7 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
   });
 
   final Map<String, dynamic> data;
-
+  
   @override
   Widget build(BuildContext context) {
     print("screen $data");
@@ -27,7 +27,7 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
         ),
         centerTitle: true,
         title: TitleHeading3Widget(
-          text: data["title"].toString(),
+          text: data["data"]["program"]["title"].toString(),
         ),
       ),
       body: _bodyWidget(context),
@@ -39,14 +39,14 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
     return ListView.builder(
       shrinkWrap: true,
       scrollDirection: Axis.vertical,
-      itemCount: 1,
+      itemCount: 11,
       physics: const BouncingScrollPhysics(),
       itemBuilder: (BuildContext context, int index) {
-        String streamUrl = data["data"]["url"];
-        String imagePath = data["data"]["image"];
-        String title = data["data"]["title"];
+        String streamUrl = data["data"]['episodes']["url"];
+        String imagePath = data["data"]['episodes']["image"];
+        String title = data["data"]['episodes']["title"];
         String subTitle = "";
-        String summary = data["data"]["summary"];
+        String summary = data["data"]['episodes']["summary"];
         return data.isNotEmpty
             ? InkWell(
                 onTap: () {
@@ -57,7 +57,7 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
                   imagePath: imagePath,
                   title: title,
                   subTitle: subTitle,
-                  itemCount: data["data"].length,
+                  itemCount: data["data"]["episodes"].length,
                 ),
               )
             : const SizedBox();
