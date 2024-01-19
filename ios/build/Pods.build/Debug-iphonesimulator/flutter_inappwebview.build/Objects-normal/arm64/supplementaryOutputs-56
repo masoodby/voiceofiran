@@ -1,0 +1,42 @@
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/SslError.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslError.d"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslError.o"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslError.dia"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslError.swiftdeps"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslError.swiftconstvalues"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/PluginScriptsJS/SupportZoomJS.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SupportZoomJS.d"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SupportZoomJS.swiftdeps"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SupportZoomJS.o"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SupportZoomJS.swiftconstvalues"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SupportZoomJS.dia"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/SafariViewController/SafariViewController.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariViewController.d"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariViewController.swiftconstvalues"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariViewController.o"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariViewController.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariViewController.dia"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/SecCertificate.swift":
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SecCertificate.o"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SecCertificate.d"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SecCertificate.swiftconstvalues"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SecCertificate.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SecCertificate.dia"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/SslCertificate.swift":
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslCertificate.swiftdeps"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslCertificate.d"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslCertificate.dia"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslCertificate.o"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SslCertificate.swiftconstvalues"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/ServerTrustChallenge.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/ServerTrustChallenge.d"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/ServerTrustChallenge.o"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/ServerTrustChallenge.swiftconstvalues"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/ServerTrustChallenge.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/ServerTrustChallenge.dia"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/Size2D.swift":
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/Size2D.dia"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/Size2D.swiftconstvalues"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/Size2D.o"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/Size2D.d"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/Size2D.swiftdeps"

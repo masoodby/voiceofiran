@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:shimmer/shimmer.dart';
-
+import '../../../../widgets/webview/webview.dart';
 import '../../../../controller/details/details_screen_controller.dart';
 import '../../../../controller/video_player_screen_controller/video_player_screen_controller.dart';
 import '../../../../helper/admob_helper.dart';
 import '../../../../main.dart';
 import '../../../../utils/basic_screen_imports.dart';
-import '../../../../widgets/others/custom_title_subtitle_widget.dart';
+// import '../../../../widgets/others/custom_title_subtitle_widget.dart';
 
 class DetailsScreenMobile extends StatelessWidget {
   final controller = Get.put(DetailsScreenController());
@@ -57,7 +57,9 @@ class DetailsScreenMobile extends StatelessWidget {
     return Stack(
       children: [
         SizedBox(
-          height:DeviceInfo.isTv ? MediaQuery.of(context).size.height * .60: MediaQuery.of(context).size.height * .25,
+          height: DeviceInfo.isTv
+              ? MediaQuery.of(context).size.height * .60
+              : MediaQuery.of(context).size.height * .25,
           child: CachedNetworkImage(
             imageUrl: imagePath!,
             maxWidthDiskCache: 1024 * 2,
@@ -79,8 +81,12 @@ class DetailsScreenMobile extends StatelessWidget {
           ),
         ),
         Positioned(
-          bottom: DeviceInfo.isTv ?MediaQuery.of(context).size.height * .25: MediaQuery.of(context).size.height * .1,
-          left:DeviceInfo.isTv ? MediaQuery.sizeOf(context).width * .40: MediaQuery.sizeOf(context).width * .3,
+          bottom: DeviceInfo.isTv
+              ? MediaQuery.of(context).size.height * .25
+              : MediaQuery.of(context).size.height * .1,
+          left: DeviceInfo.isTv
+              ? MediaQuery.sizeOf(context).width * .40
+              : MediaQuery.sizeOf(context).width * .3,
           child: InkWell(
             onTap: () {
               AdMobHelper.getInterstitialAdLoad();
@@ -95,22 +101,22 @@ class DetailsScreenMobile extends StatelessWidget {
                 borderRadius: BorderRadius.circular(Dimensions.radius * 2.5),
                 color: CustomColor.blackColor.withOpacity(.5),
               ),
-              child: Row(
-                children: [
-                  CircleAvatar(
-                    radius: Dimensions.radius * 2,
-                    child: const Icon(
-                      Icons.play_arrow,
-                    ),
-                  ),
-                  TitleHeading4Widget(
-                    padding: EdgeInsets.symmetric(
-                        horizontal: Dimensions.paddingSize * .25),
-                    text: Strings.playNow,
-                    color: CustomColor.whiteColor,
-                  )
-                ],
-              ),
+              // child: Row(
+              //   children: [
+              //     CircleAvatar(
+              //       radius: Dimensions.radius * 2,
+              //       child: const Icon(
+              //         Icons.play_arrow,
+              //       ),
+              //     ),
+              //     TitleHeading4Widget(
+              //       padding: EdgeInsets.symmetric(
+              //           horizontal: Dimensions.paddingSize * .25),
+              //       text: Strings.playNow,
+              //       color: CustomColor.whiteColor,
+              //     )
+              //   ],
+              // ),
             ),
           ),
         ),
@@ -124,10 +130,11 @@ class DetailsScreenMobile extends StatelessWidget {
         left: Dimensions.paddingSize,
         right: Dimensions.paddingSize,
       ),
-      child: CustomTitleSubtitleWidget(
-          showDivider: true,
-          title: Strings.summary,
-          subTitle: arguments[4]["summary"]),
+      child: SizedBox(
+        width: 200,
+        height: 200,
+        child: WebView(video:arguments[0]["streamUrl"]),
+        ),
     );
   }
 

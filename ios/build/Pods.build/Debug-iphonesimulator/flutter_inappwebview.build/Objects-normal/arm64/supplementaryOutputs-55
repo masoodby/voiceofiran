@@ -1,0 +1,42 @@
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/PluginScriptsJS/PrintJS.swift":
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PrintJS.swiftdeps"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PrintJS.swiftconstvalues"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PrintJS.o"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PrintJS.dia"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PrintJS.d"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/PullToRefresh/PullToRefreshControl.swift":
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshControl.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshControl.dia"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshControl.swiftconstvalues"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshControl.d"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshControl.o"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/PluginScriptsJS/PromisePolyfillJS.swift":
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PromisePolyfillJS.o"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PromisePolyfillJS.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PromisePolyfillJS.dia"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PromisePolyfillJS.d"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PromisePolyfillJS.swiftconstvalues"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/SafariViewController/SafariBrowserOptions.swift":
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariBrowserOptions.swiftdeps"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariBrowserOptions.d"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariBrowserOptions.swiftconstvalues"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariBrowserOptions.dia"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/SafariBrowserOptions.o"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/PullToRefresh/PullToRefreshOptions.swift":
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshOptions.o"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshOptions.d"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshOptions.dia"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshOptions.swiftconstvalues"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshOptions.swiftdeps"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/PluginScriptsJS/PluginScriptsUtil.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PluginScriptsUtil.d"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PluginScriptsUtil.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PluginScriptsUtil.dia"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PluginScriptsUtil.swiftconstvalues"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PluginScriptsUtil.o"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/PullToRefresh/PullToRefreshDelegate.swift":
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshDelegate.o"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshDelegate.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshDelegate.dia"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshDelegate.d"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/PullToRefreshDelegate.swiftconstvalues"

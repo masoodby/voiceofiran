@@ -1,0 +1,36 @@
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/WKNavigationAction.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationAction.d"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationAction.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationAction.dia"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationAction.o"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationAction.swiftconstvalues"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/WKSecurityOrigin.swift":
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKSecurityOrigin.swiftdeps"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKSecurityOrigin.swiftconstvalues"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKSecurityOrigin.dia"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKSecurityOrigin.o"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKSecurityOrigin.d"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/WKWindowFeatures.swift":
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKWindowFeatures.dia"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKWindowFeatures.swiftdeps"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKWindowFeatures.swiftconstvalues"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKWindowFeatures.d"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKWindowFeatures.o"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/WKUserContentController.swift":
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKUserContentController.swiftconstvalues"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKUserContentController.dia"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKUserContentController.o"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKUserContentController.d"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKUserContentController.swiftdeps"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/Types/WKNavigationResponse.swift":
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationResponse.swiftconstvalues"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationResponse.d"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationResponse.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationResponse.dia"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKNavigationResponse.o"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/WKProcessPoolManager.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKProcessPoolManager.d"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKProcessPoolManager.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKProcessPoolManager.dia"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKProcessPoolManager.o"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/WKProcessPoolManager.swiftconstvalues"

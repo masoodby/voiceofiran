@@ -1,0 +1,42 @@
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/InAppBrowser/InAppBrowserOptions.swift":
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserOptions.o"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserOptions.d"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserOptions.swiftconstvalues"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserOptions.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserOptions.dia"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/InAppBrowser/InAppBrowserWebViewController.swift":
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserWebViewController.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserWebViewController.dia"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserWebViewController.swiftconstvalues"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserWebViewController.d"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppBrowserWebViewController.o"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/PluginScriptsJS/InterceptAjaxRequestJS.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InterceptAjaxRequestJS.d"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InterceptAjaxRequestJS.o"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InterceptAjaxRequestJS.dia"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InterceptAjaxRequestJS.swiftconstvalues"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InterceptAjaxRequestJS.swiftdeps"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/InAppWebView/InAppWebView.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebView.d"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebView.swiftdeps"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebView.swiftconstvalues"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebView.dia"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebView.o"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/InAppWebViewMethodHandler.swift":
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewMethodHandler.d"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewMethodHandler.o"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewMethodHandler.swiftdeps"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewMethodHandler.dia"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewMethodHandler.swiftconstvalues"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/InAppWebView/InAppWebViewOptions.swift":
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewOptions.swiftdeps"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewOptions.swiftconstvalues"
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewOptions.o"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewOptions.dia"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewOptions.d"
+"/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/InAppWebViewStatic.swift":
+  object: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewStatic.o"
+  diagnostics: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewStatic.dia"
+  dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewStatic.d"
+  const-values: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewStatic.swiftconstvalues"
+  swift-dependencies: "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/flutter_inappwebview.build/Objects-normal/arm64/InAppWebViewStatic.swiftdeps"

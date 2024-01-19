@@ -16,7 +16,7 @@ class CategoryPreviewScreenMobile extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    print("screen $data");
+    // print("screen $data");
     return Scaffold(
       appBar: AppBar(
         leading: InkWell(

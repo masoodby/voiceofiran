@@ -13,26 +13,29 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>net.appdevs.iplive</string>
+	<string>com.appdevs.iplive</string>
+	<key>CFBundleVersion</key>
+	<string>2.6.9</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1</string>
 	<key>PROJECT_ID</key>
 	<string>podlive-testuser-app</string>
 	<key>STORAGE_BUCKET</key>
 	<string>podlive-testuser-app.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:851952738758:ios:42d1641f9b41ad930412c7</string>
-
 	<key>GADApplicationIdentifier</key>
-        <string>ca-app-pub-3940256099942544~1458002511</string>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>

@@ -30,7 +30,7 @@ class CategoryScreenMobile extends StatelessWidget {
     return RefreshIndicator(
       onRefresh: () async {
         homeController.catData();
-        homeController.getCategoryData();
+        // homeController.getCategoryData();
       },
       child: ListView(children: [
         _categoryGridWidget(context),

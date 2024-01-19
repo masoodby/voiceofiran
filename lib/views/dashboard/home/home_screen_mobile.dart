@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 // import 'package:carousel_slider/carousel_slider.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
+
 import 'package:iplive/main.dart';
 import 'package:iplive/widgets/others/video_player_view.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:video_player/video_player.dart';
-
+import '../category/details_screen/details_screen_mobile.dart';
 import '../../../../controller/navigation/home/home_screen_controller.dart';
 import '../../../controller/details/details_screen_controller.dart';
 import '../../../controller/video_player_screen_controller/video_player_screen_controller.dart';
@@ -62,7 +62,6 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
   }
 
   _bannerWidget(context) {
-
     // return StreamBuilder(
     //   stream: controller.getBannerData(),
     //   builder: (context, snapshot) {
@@ -182,7 +181,6 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
     //   },
     // );
     return const SizedBox(
-      
       child: VideoPlayerView(
         // url: "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
         url: "https://tv.iranrepublictv.com/hls/test/index.m3u8",
@@ -330,8 +328,9 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
 
   _livePodcastWidget(context) {
     return StreamBuilder(
-      stream: controller.getPodcastData(),
+      stream: controller.homeApi(),
       builder: (context, snapshot) {
+        // print("homescreen api: ${snapshot.data}");
         if (snapshot.hasError) {
           return const Center(
             child: Text("Error loading data",
@@ -352,131 +351,119 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
             ),
           );
         }
-        return SizedBox(
-          child: ListView.builder(
-            physics: const BouncingScrollPhysics(),
-            scrollDirection: Axis.vertical,
-            shrinkWrap: true,
-            itemCount:
-                snapshot.data!.docs.length > 5 ? 5 : snapshot.data!.docs.length,
-            itemBuilder: (BuildContext context, int index) {
-              var data = snapshot.data!.docs;
-              String podcastBannerImageUrl = data[index]["banner"].toString();
-              String podcastTitle = data[index]["title"].toString();
-              String podcastSubTitle = data[index]["subTitle"].toString();
-              //String podcastUrl = data[index]["url"].toString();
-              return InkWell(
-                onTap: () {
-                  videoPlayerController.videoUrl.value =
-                      data[index]["url"].toString();
-                  videoPlayerController.title.value =
-                      data[index]["title"].toString();
-                  videoPlayerController.subTitle.value =
-                      data[index]["subTitle"].toString();
-                  detailsController.goToVideoPlayerScreen(data);
-                },
-                child: Padding(
-                  padding: EdgeInsets.only(
-                    left: Dimensions.paddingSize * 0.6,
-                    right: Dimensions.paddingSize * 0.6,
-                    bottom: Dimensions.paddingSize * .5,
-                    top: Dimensions.paddingSize * 0.5,
-                  ),
-                  child: Column(
-                    children: [
-                      Visibility(
-                        visible: index % 2 == 0 && index != 0,
-                        child: Padding(
-                          padding: EdgeInsets.only(
-                              bottom: Dimensions.paddingSize * .5),
-                          child: SizedBox(
-                            height: Dimensions.heightSize * 7,
-                            child: AdWidget(
-                              ad: AdMobHelper.getBannerAd()..load(),
-                              key: UniqueKey(),
-                            ),
-                          ),
-                        ),
-                      ),
-                      Row(
-                        children: [
-                          Expanded(
-                            flex: 1,
-                            child: Container(
-                              margin: EdgeInsets.symmetric(
-                                  horizontal: Dimensions.paddingSize * .3),
-                              height: DeviceInfo.isTv
-                                  ? MediaQuery.of(context).size.height * 0.18
-                                  : MediaQuery.of(context).size.height * 0.08,
-                              //adjust live podcast individual item height
-                              child: CachedNetworkImage(
-                                imageUrl: podcastBannerImageUrl,
-                                maxHeightDiskCache: 512 *
-                                    (snapshot.data!.docs.length > 5
-                                        ? 5
-                                        : snapshot.data!.docs.length),
-                                maxWidthDiskCache: 512 *
-                                    (snapshot.data!.docs.length > 5
-                                        ? 5
-                                        : snapshot.data!.docs.length),
-                                fit: BoxFit.cover,
-                                placeholder: (context, url) =>
-                                    Shimmer.fromColors(
-                                  baseColor: Colors.grey[300]!,
-                                  // Choose your shimmer base color
-                                  highlightColor: Colors.grey[100]!,
-                                  // Choose your shimmer highlight color
-                                  child: Container(
-                                    width: double.infinity,
-                                    height: double.infinity,
-                                    color: Colors
-                                        .white, // You can change this color as needed
+        return SingleChildScrollView(
+          child: SizedBox(
+            child: ListView.builder(
+              physics: const BouncingScrollPhysics(),
+              scrollDirection: Axis.vertical,
+              shrinkWrap: true,
+              itemCount:
+                  snapshot.data!.length > 5 ? 5 : snapshot.data!.length,
+              itemBuilder: (BuildContext context, int index) {
+                var data = snapshot.data;
+                String podcastBannerImageUrl = data[index]["image"].toString();
+                String podcastTitle = data[index]["title"].toString();
+                String podcastSubTitle = "";
+                //String podcastUrl = data[index]["url"].toString();
+                return InkWell(
+                  onTap: () async {
+                    videoPlayerController.videoUrl.value =
+                        data[index]["url"].toString();
+                    videoPlayerController.title.value =
+                        data[index]["title"].toString();
+                    videoPlayerController.subTitle.value =
+                        "";
+                    await detailsController.goToDetailsScreen(data[index]);
+                  },
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                      left: Dimensions.paddingSize * 0.6,
+                      right: Dimensions.paddingSize * 0.6,
+                      bottom: Dimensions.paddingSize * .5,
+                      top: Dimensions.paddingSize * 0.5,
+                    ),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Expanded(
+                              flex: 1,
+                              child: Container(
+                                margin: EdgeInsets.symmetric(
+                                    horizontal: Dimensions.paddingSize * .3),
+                                height: DeviceInfo.isTv
+                                    ? MediaQuery.of(context).size.height * 0.18
+                                    : MediaQuery.of(context).size.height * 0.08,
+                                //adjust live podcast individual item height
+                                child: CachedNetworkImage(
+                                  imageUrl: podcastBannerImageUrl,
+                                  // maxHeightDiskCache: 512 *
+                                  //     (snapshot.data!.docs.length > 5
+                                  //         ? 5
+                                  //         : snapshot.data!.docs.length),
+                                  // maxWidthDiskCache: 512 *
+                                  //     (snapshot.data!.docs.length > 5
+                                  //         ? 5
+                                  //         : snapshot.data!.docs.length),
+                                  fit: BoxFit.cover,
+                                  placeholder: (context, url) =>
+                                      Shimmer.fromColors(
+                                    baseColor: Colors.grey[300]!,
+                                    // Choose your shimmer base color
+                                    highlightColor: Colors.grey[100]!,
+                                    // Choose your shimmer highlight color
+                                    child: Container(
+                                      width: double.infinity,
+                                      height: double.infinity,
+                                      color: Colors
+                                          .white, // You can change this color as needed
+                                    ),
                                   ),
+                                  errorWidget: (context, url, error) =>
+                                      const Icon(Icons.error),
                                 ),
-                                errorWidget: (context, url, error) =>
-                                    const Icon(Icons.error),
                               ),
                             ),
-                          ),
-                          Expanded(
-                            flex: 2,
-                            child: Column(
-                              crossAxisAlignment: crossStart,
-                              children: [
-                                TitleHeading5Widget(
-                                  text: podcastTitle,
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: DeviceInfo.isTv
-                                      ? Dimensions.headingTextSize6
-                                      : Dimensions.headingTextSize3,
-                                  color: Get.isDarkMode
-                                      ? CustomColor.whiteColor.withOpacity(0.65)
-                                      : CustomColor.blackColor
-                                          .withOpacity(0.65),
-                                ),
-                                verticalSpace(DeviceInfo.isTv
-                                    ? Dimensions.heightSize * 1.5
-                                    : Dimensions.heightSize * 0.5),
-                                TitleHeading5Widget(
-                                  text: podcastSubTitle,
-                                  color: Get.isDarkMode
-                                      ? CustomColor.whiteColor.withOpacity(0.3)
-                                      : CustomColor.blackColor.withOpacity(0.3),
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: DeviceInfo.isTv
-                                      ? Dimensions.headingTextSize7
-                                      : Dimensions.headingTextSize4,
-                                ),
-                              ],
+                            Expanded(
+                              flex: 2,
+                              child: Column(
+                                crossAxisAlignment: crossStart,
+                                children: [
+                                  TitleHeading5Widget(
+                                    text: podcastTitle,
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: DeviceInfo.isTv
+                                        ? Dimensions.headingTextSize6
+                                        : Dimensions.headingTextSize3,
+                                    color: Get.isDarkMode
+                                        ? CustomColor.whiteColor.withOpacity(0.65)
+                                        : CustomColor.blackColor
+                                            .withOpacity(0.65),
+                                  ),
+                                  verticalSpace(DeviceInfo.isTv
+                                      ? Dimensions.heightSize * 1.5
+                                      : Dimensions.heightSize * 0.5),
+                                  TitleHeading5Widget(
+                                    text: podcastSubTitle,
+                                    color: Get.isDarkMode
+                                        ? CustomColor.whiteColor.withOpacity(0.3)
+                                        : CustomColor.blackColor.withOpacity(0.3),
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: DeviceInfo.isTv
+                                        ? Dimensions.headingTextSize7
+                                        : Dimensions.headingTextSize4,
+                                  ),
+                                ],
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
-                    ],
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
-                ),
-              );
-            },
+                );
+              },
+            ),
           ),
         );
       },

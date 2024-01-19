@@ -1,18 +1,27 @@
-import 'dart:convert';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/foundation.dart';
+// import 'package:flutter/foundation.dart';
 
 import '../../../../utils/basic_screen_imports.dart';
 import '../../../routes/routes.dart';
 import '../../../backend/api/api.dart';
 
 class HomeScreenController extends GetxController {
+
+  
   Stream<QuerySnapshot<Map<String, dynamic>>> getBannerData() {
     return FirebaseFirestore.instance.collection("bannerSlider").snapshots();
   }
 
+    Stream homeApi() {
+    final api = ApiProvider();
+    final homeData = api.homeApi();
+    // print("home api : $homeData");
+    return homeData;
+  }
+  
+
   Stream<QuerySnapshot<Map<String, dynamic>>> getLiveTvData() {
+  
     return FirebaseFirestore.instance.collection("liveTv").snapshots();
   }
 
@@ -29,7 +38,7 @@ class HomeScreenController extends GetxController {
 
   Stream<QuerySnapshot<Map<String, dynamic>>> getCategoryData() {
     catData();
-
+  
     return FirebaseFirestore.instance.collection("categoriesData").snapshots();
   }
 
@@ -50,7 +59,7 @@ class HomeScreenController extends GetxController {
   goToCategoryPreviewScreen(data) async {
     final api = ApiProvider();
     final apiresponse = await api.getPrograms(data).then((value) => value);
-    print(apiresponse["episodes"]);
+    // print(apiresponse["episodes"]);
 
     // final moein = jsonEncode(myProg);
     // print('do something $moein');
