@@ -1,3 +1,7 @@
+// ignore_for_file: unnecessary_string_interpolations
+
+import 'dart:convert';
+
 import 'package:cached_network_image/cached_network_image.dart';
 // import 'package:carousel_slider/carousel_slider.dart';
 
@@ -5,16 +9,16 @@ import 'package:iplive/main.dart';
 import 'package:iplive/widgets/others/video_player_view.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:video_player/video_player.dart';
-import '../category/details_screen/details_screen_mobile.dart';
+// import '../category/details_screen/details_screen_mobile.dart';
 import '../../../../controller/navigation/home/home_screen_controller.dart';
 import '../../../controller/details/details_screen_controller.dart';
 import '../../../controller/video_player_screen_controller/video_player_screen_controller.dart';
-import '../../../helper/admob_helper.dart';
+// import '../../../helper/admob_helper.dart';
 import '../../../utils/basic_screen_imports.dart';
 
 class HomeScreenMobile extends StatefulWidget {
-  const HomeScreenMobile({super.key});
-
+  const HomeScreenMobile({super.key, required });
+  
   @override
   State<HomeScreenMobile> createState() => _HomeScreenMobileState();
 }
@@ -23,6 +27,23 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
   final controller = Get.put(HomeScreenController());
   final detailsController = Get.put(DetailsScreenController());
   final videoPlayerController = Get.put(VideoPlayerScreenController());
+  final streamUrl = Get.put(HomeScreenController().mainStream());
+  String link = "";
+  @override
+  void initState() {
+    // ignore: unused_element
+    controller.mainStream()
+      .then((value) {
+        final url = value;
+        setState(() {
+          link = url;
+        }); 
+
+        print("value : ${url["url"]}");
+      });
+    ;
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +67,7 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
     return RefreshIndicator(
       onRefresh: () async {
         controller.getBannerData();
-        // controller.getLiveTvData();
+        controller.mainStream();
         controller.getPodcastData();
       },
       child: ListView(
@@ -180,10 +201,12 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
     //     }
     //   },
     // );
-    return const SizedBox(
+
+    return SizedBox(
       child: VideoPlayerView(
         // url: "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-        url: "https://tv.iranrepublictv.com/hls/test/index.m3u8",
+
+        url: link ,
         dataSourceType: DataSourceType.network,
       ),
     );
@@ -357,8 +380,7 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
               physics: const BouncingScrollPhysics(),
               scrollDirection: Axis.vertical,
               shrinkWrap: true,
-              itemCount:
-                  snapshot.data!.length > 5 ? 5 : snapshot.data!.length,
+              itemCount: snapshot.data!.length > 5 ? 5 : snapshot.data!.length,
               itemBuilder: (BuildContext context, int index) {
                 var data = snapshot.data;
                 String podcastBannerImageUrl = data[index]["image"].toString();
@@ -371,8 +393,7 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
                         data[index]["url"].toString();
                     videoPlayerController.title.value =
                         data[index]["title"].toString();
-                    videoPlayerController.subTitle.value =
-                        "";
+                    videoPlayerController.subTitle.value = "";
                     await detailsController.goToDetailsScreen(data[index]);
                   },
                   child: Padding(
@@ -436,7 +457,8 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
                                         ? Dimensions.headingTextSize6
                                         : Dimensions.headingTextSize3,
                                     color: Get.isDarkMode
-                                        ? CustomColor.whiteColor.withOpacity(0.65)
+                                        ? CustomColor.whiteColor
+                                            .withOpacity(0.65)
                                         : CustomColor.blackColor
                                             .withOpacity(0.65),
                                   ),
@@ -446,8 +468,10 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
                                   TitleHeading5Widget(
                                     text: podcastSubTitle,
                                     color: Get.isDarkMode
-                                        ? CustomColor.whiteColor.withOpacity(0.3)
-                                        : CustomColor.blackColor.withOpacity(0.3),
+                                        ? CustomColor.whiteColor
+                                            .withOpacity(0.3)
+                                        : CustomColor.blackColor
+                                            .withOpacity(0.3),
                                     fontWeight: FontWeight.w600,
                                     fontSize: DeviceInfo.isTv
                                         ? Dimensions.headingTextSize7

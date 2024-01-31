@@ -27,7 +27,6 @@ class ApiProvider {
 
   Future<Map<String, dynamic>> getDetail(url) async {
     try {
-      
       final response = await dio.get('$url');
       // print("api.dart response ${response.data}");
       return response.data;
@@ -35,6 +34,7 @@ class ApiProvider {
       rethrow;
     }
   }
+
   Stream homeApi() async* {
     try {
       final response =
@@ -47,4 +47,15 @@ class ApiProvider {
     }
   }
 
+  Future mainStream() async {
+    try {
+      final response =
+          await dio.get('https://voice-of-iran-republic.com/api/stream');
+      print("api.dart ${response.data}");
+
+      return response.data;
+    } catch (e) {
+      rethrow;
+    }
+  }
 }

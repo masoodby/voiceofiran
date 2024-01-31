@@ -6,22 +6,31 @@ import '../../../routes/routes.dart';
 import '../../../backend/api/api.dart';
 
 class HomeScreenController extends GetxController {
-
-  
   Stream<QuerySnapshot<Map<String, dynamic>>> getBannerData() {
     return FirebaseFirestore.instance.collection("bannerSlider").snapshots();
   }
 
-    Stream homeApi() {
+  var link;
+  Stream homeApi() {
     final api = ApiProvider();
     final homeData = api.homeApi();
     // print("home api : $homeData");
     return homeData;
   }
-  
+
+  mainStream() async {
+    
+    final api = ApiProvider();
+    await api.mainStream().then((value) {
+      final url = value;
+      link = url["url"];
+
+      print("value : ${url["url"]}");
+    });
+    print("homescreen.dart $link");
+  }
 
   Stream<QuerySnapshot<Map<String, dynamic>>> getLiveTvData() {
-  
     return FirebaseFirestore.instance.collection("liveTv").snapshots();
   }
 
@@ -38,7 +47,7 @@ class HomeScreenController extends GetxController {
 
   Stream<QuerySnapshot<Map<String, dynamic>>> getCategoryData() {
     catData();
-  
+
     return FirebaseFirestore.instance.collection("categoriesData").snapshots();
   }
 
