@@ -39,7 +39,6 @@
             "GULKeychainUtils",
             "GULAppDelegateSwizzler",
             "GULHeartbeatDateStorage",
-            "GULSwizzler",
             "GULNetworkURLSession",
             "GULSceneZeroingWeakContainer",
             "GULSecureCoding",
@@ -74,7 +73,6 @@
             "_GULLogWarning",
             "_GULIsLoggableLevel",
             "_GULLogDebug",
-            "_GetGULSwizzlingQueue",
             "_GULLoggerEnableSTDERR",
             "_IsAppEncrypted",
             "_getGULClientQueue"

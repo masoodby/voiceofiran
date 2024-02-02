@@ -1,8 +1,8 @@
 dependencies: \
   /Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/package_info_plus.build/module.modulemap \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/package_info_plus-4.2.0/ios/Classes/FPPPackageInfoPlusPlugin.m \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/package_info_plus-5.0.1/ios/Classes/FPPPackageInfoPlusPlugin.m \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/Target\ Support\ Files/package_info_plus/package_info_plus-prefix.pch \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/package_info_plus-4.2.0/ios/Classes/FPPPackageInfoPlusPlugin.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/package_info_plus-5.0.1/ios/Classes/FPPPackageInfoPlusPlugin.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Modules/module.modulemap \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/Flutter.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterAppDelegate.h \

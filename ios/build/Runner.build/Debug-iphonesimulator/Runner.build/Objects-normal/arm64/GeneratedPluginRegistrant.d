@@ -147,132 +147,6 @@ dependencies: \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/Modules/module.modulemap \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/Headers/flutter_inappwebview-umbrella.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/flutter_inappwebview/flutter_inappwebview.framework/Headers/flutter_inappwebview-Swift.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTGoogleMobileAdsPlugin.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Modules/module.modulemap \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Modules/module.modulemap \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GoogleMobileAds.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdChoicesView.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdFormat.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdLoader.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADRequest.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdMetadata.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdReward.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdSize.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAdValue.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAppOpenAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADFullScreenContentDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADResponseInfo.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADAudioVideoManagerDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADBannerView.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAdAssetIdentifiers.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAdImage.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomNativeAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADDisplayAdMeasurement.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADMediaView.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADMediaContent.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADVideoController.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADCustomNativeAdDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADExtras.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADInitializationStatus.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADInterstitialAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADServerSideVerificationOptions.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADMediaAspectRatio.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADMobileAds.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADRequestConfiguration.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADVersionNumber.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADMultipleAdsAdLoaderOptions.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADMuteThisAdReason.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAd+ConfirmationClick.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAdUnconfirmedClickDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAd+CustomClickGesture.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAdCustomClickGestureOptions.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAdMediaAdLoaderOptions.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADNativeMuteThisAdLoaderOptions.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADPresentationError.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADQueryInfo.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADRequestError.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADRewardedAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADRewardedInterstitialAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADSearchBannerView.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GADVideoOptions.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GAMBannerView.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GAMBannerViewOptions.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GAMInterstitialAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/GAMRequest.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkAdapterProtocol.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkConnectorProtocol.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdRequest.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMEnums.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAdNotificationSource.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdConfiguration.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationServerConfiguration.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdEventDelegate.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdSize.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdapter.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationAppOpenAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationBannerAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationInterstitialAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationNativeAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/Mediation/GADMediationRewardedAd.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/QueryInfo/GADRequest+AdString.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBAdapter.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/Google-Mobile-Ads-SDK/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBRequestParameters.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/GoogleUserMessagingPlatform/UserMessagingPlatform.framework/Modules/module.modulemap \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/GoogleUserMessagingPlatform/UserMessagingPlatform.framework/Headers/UserMessagingPlatform.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/GoogleUserMessagingPlatform/UserMessagingPlatform.framework/Headers/UMPConsentForm.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/GoogleUserMessagingPlatform/UserMessagingPlatform.framework/Headers/UMPConsentInformation.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/GoogleUserMessagingPlatform/UserMessagingPlatform.framework/Headers/UMPRequestParameters.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/GoogleUserMessagingPlatform/UserMessagingPlatform.framework/Headers/UMPDebugSettings.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/GoogleUserMessagingPlatform/UserMessagingPlatform.framework/Headers/UMPError.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/google_mobile_ads-umbrella.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTAdInstanceManager_Internal.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTAd_Internal.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTMediationNetworkExtrasProvider.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTMobileAds_Internal.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTNativeTemplateStyle.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTNativeTemplateColor.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTNativeTemplateTextStyle.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTNativeTemplateFontStyle.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTNativeTemplateType.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/GADTTemplateView.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTGoogleMobileAdsCollection_Internal.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTGoogleMobileAdsReaderWriter_Internal.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTAdUtil.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTAppStateNotifier.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTConstants.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTNSString.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/GADTFullScreenTemplateView.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/GADTMediumTemplateView.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/GADTSmallTemplateView.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTUserMessagingPlatformManager.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/google_mobile_ads/google_mobile_ads.framework/Headers/FLTUserMessagingPlatformReaderWriter.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/image_picker_ios/image_picker_ios.framework/Headers/FLTImagePickerPlugin.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/image_picker_ios/image_picker_ios.framework/Modules/module.modulemap \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/image_picker_ios/image_picker_ios.framework/Headers/image_picker_ios-umbrella.h \
@@ -292,19 +166,23 @@ dependencies: \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Modules/module.modulemap \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/sqflite-umbrella.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteCursor.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteDarwinDatabase.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteDarwinResultSet.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteDarwinDatabaseAdditions.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteDarwinDatabaseQueue.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteDarwinDB.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteDarwinImport.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteDatabase.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteOperation.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/sqflite/sqflite.framework/Headers/SqfliteImport.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/url_launcher_ios/url_launcher_ios.framework/Headers/FLTURLLauncherPlugin.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/url_launcher_ios/url_launcher_ios.framework/Modules/module.modulemap \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/url_launcher_ios/url_launcher_ios.framework/Headers/url_launcher_ios-umbrella.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/url_launcher_ios/url_launcher_ios.framework/Headers/messages.g.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/url_launcher_ios/url_launcher_ios.framework/Headers/FLTURLLauncherPlugin_Test.h \
-  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/url_launcher_ios/url_launcher_ios.framework/Headers/FULLauncher.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/url_launcher_ios/url_launcher_ios.framework/Headers/url_launcher_ios-Swift.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/video_player_avfoundation/video_player_avfoundation.framework/Headers/FVPVideoPlayerPlugin.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/video_player_avfoundation/video_player_avfoundation.framework/Modules/module.modulemap \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/video_player_avfoundation/video_player_avfoundation.framework/Headers/video_player_avfoundation-umbrella.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/video_player_avfoundation/video_player_avfoundation.framework/Headers/AVAssetTrackUtils.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/video_player_avfoundation/video_player_avfoundation.framework/Headers/FVPDisplayLink.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/video_player_avfoundation/video_player_avfoundation.framework/Headers/FVPVideoPlayerPlugin_Test.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/video_player_avfoundation/video_player_avfoundation.framework/Headers/messages.g.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/wakelock_plus/wakelock_plus.framework/Headers/WakelockPlusPlugin.h \
@@ -327,7 +205,10 @@ dependencies: \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFUIDelegateHostApi.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFWebViewConfigurationHostApi.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFUIViewHostApi.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFURLAuthenticationChallengeHostApi.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFURLCredentialHostApi.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFURLHostApi.h \
+  /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFURLProtectionSpaceHostApi.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFUserContentControllerHostApi.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFWebViewFlutterWKWebViewExternalAPI.h \
   /Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers/FWFWebViewHostApi.h \

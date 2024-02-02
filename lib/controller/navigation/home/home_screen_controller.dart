@@ -10,24 +10,16 @@ class HomeScreenController extends GetxController {
     return FirebaseFirestore.instance.collection("bannerSlider").snapshots();
   }
 
-  var link;
   Stream homeApi() {
     final api = ApiProvider();
     final homeData = api.homeApi();
     // print("home api : $homeData");
-    return homeData;
-  }
+    return homeData;  }
 
-  mainStream() async {
-    
+  Stream mainStream() {
     final api = ApiProvider();
-    await api.mainStream().then((value) {
-      final url = value;
-      link = url["url"];
-
-      print("value : ${url["url"]}");
-    });
-    print("homescreen.dart $link");
+    final streamUrl = api.mainStream();
+    return streamUrl;
   }
 
   Stream<QuerySnapshot<Map<String, dynamic>>> getLiveTvData() {
@@ -68,24 +60,6 @@ class HomeScreenController extends GetxController {
   goToCategoryPreviewScreen(data) async {
     final api = ApiProvider();
     final apiresponse = await api.getPrograms(data).then((value) => value);
-    // print(apiresponse["episodes"]);
-
-    // final moein = jsonEncode(myProg);
-    // print('do something $moein');
-    // final json = jsonEncode(myProg);
-    // print("mydata: $myProg");
-    // Get.toNamed(
-    //   Routes.detailsScreen,
-    //   arguments: [
-    //     {'streamUrl': mydata["url"]},
-    //     {'imagePath': mydata["image"]},
-    //     {'title': mydata["title"]},
-    //     {'subTitle': ""},
-    //     {'summary': mydata["summary"]},
-    //     {'data': data},
-    //   ],
-    // );
-
     Get.toNamed(Routes.categoryPreviewScreen, arguments: {'data': apiresponse});
   }
 }

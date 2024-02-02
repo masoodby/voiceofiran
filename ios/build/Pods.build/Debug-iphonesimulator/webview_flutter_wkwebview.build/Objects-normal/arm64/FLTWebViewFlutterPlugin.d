@@ -1,8 +1,8 @@
 dependencies: \
   /Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/webview_flutter_wkwebview.build/module.modulemap \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FLTWebViewFlutterPlugin.m \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FLTWebViewFlutterPlugin.m \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/Target\ Support\ Files/webview_flutter_wkwebview/webview_flutter_wkwebview-prefix.pch \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FLTWebViewFlutterPlugin.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FLTWebViewFlutterPlugin.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Modules/module.modulemap \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/Flutter.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterAppDelegate.h \
@@ -20,18 +20,20 @@ dependencies: \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterViewController.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFGeneratedWebKitApis.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFHTTPCookieStoreHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFInstanceManager.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFNavigationDelegateHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFObjectHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFPreferencesHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFScriptMessageHandlerHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFScrollViewHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFUIDelegateHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFWebViewConfigurationHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFUIViewHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFURLHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFUserContentControllerHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFWebViewHostApi.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFWebsiteDataStoreHostApi.h
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFGeneratedWebKitApis.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFHTTPCookieStoreHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFInstanceManager.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFNavigationDelegateHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFObjectHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFPreferencesHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFScriptMessageHandlerHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFScrollViewHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFUIDelegateHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFWebViewConfigurationHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFUIViewHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFURLCredentialHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFDataConverters.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFURLHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFUserContentControllerHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFWebViewHostApi.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFWebsiteDataStoreHostApi.h

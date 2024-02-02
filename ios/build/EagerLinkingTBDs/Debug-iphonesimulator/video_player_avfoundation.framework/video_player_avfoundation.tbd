@@ -11,18 +11,21 @@
           "objc_class": [
             "FVPAVFoundationVideoPlayerApiCodecReaderWriter",
             "FVPMixWithOthersMessage",
+            "FVPDisplayLink",
             "FVPTextureMessage",
+            "FVPDefaultAVFactory",
             "FVPLoopingMessage",
             "FVPAVFoundationVideoPlayerApiCodecWriter",
             "FVPVolumeMessage",
             "FVPVideoPlayer",
             "FVPFrameUpdater",
             "FVPAVFoundationVideoPlayerApiCodecReader",
+            "FVPDefaultDisplayLinkFactory",
             "PodsDummy_video_player_avfoundation",
             "FVPVideoPlayerPlugin",
+            "FVPDisplayLinkTarget",
             "FVPPositionMessage",
             "FVPCreateMessage",
-            "FVPDefaultPlayerFactory",
             "FVPPlaybackSpeedMessage"
           ]
         },
@@ -30,7 +33,7 @@
           "global": [
             "_FVPAVFoundationVideoPlayerApiGetCodec",
             "_FVPGetStandardizedTransformForTrack",
-            "_FVPAVFoundationVideoPlayerApiSetup"
+            "_SetUpFVPAVFoundationVideoPlayerApi"
           ]
         }
       }
@@ -49,7 +52,7 @@
     ],
     "target_info": [
       {
-        "min_deployment": "11",
+        "min_deployment": "12",
         "target": "x86_64-ios-simulator"
       },
       {

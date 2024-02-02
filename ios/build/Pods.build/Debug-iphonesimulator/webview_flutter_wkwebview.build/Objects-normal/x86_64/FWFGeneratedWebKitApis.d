@@ -1,8 +1,8 @@
 dependencies: \
   /Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/webview_flutter_wkwebview.build/module.modulemap \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFGeneratedWebKitApis.m \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFGeneratedWebKitApis.m \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/Target\ Support\ Files/webview_flutter_wkwebview/webview_flutter_wkwebview-prefix.pch \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.9.1/ios/Classes/FWFGeneratedWebKitApis.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.11.0/ios/Classes/FWFGeneratedWebKitApis.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Modules/module.modulemap \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/Flutter.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterAppDelegate.h \

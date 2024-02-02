@@ -1,0 +1,48 @@
+{
+  "" : {
+    "diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/url_launcher_ios-master.dia",
+    "emit-module-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/url_launcher_ios-master-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/url_launcher_ios-master-emit-module.dia",
+    "swift-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/url_launcher_ios-master.swiftdeps"
+  },
+  "/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/url_launcher_ios-6.2.4/ios/Classes/Launcher.swift" : {
+    "const-values" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/Launcher.swiftconstvalues",
+    "dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/Launcher.d",
+    "diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/Launcher.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/Launcher.o",
+    "llvm-bc" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/Launcher.bc",
+    "object" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/Launcher.o",
+    "swift-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/Launcher.swiftdeps",
+    "swiftmodule" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/Launcher~partial.swiftmodule"
+  },
+  "/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/url_launcher_ios-6.2.4/ios/Classes/messages.g.swift" : {
+    "const-values" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/messages.g.swiftconstvalues",
+    "dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/messages.g.d",
+    "diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/messages.g.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/messages.g.o",
+    "llvm-bc" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/messages.g.bc",
+    "object" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/messages.g.o",
+    "swift-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/messages.g.swiftdeps",
+    "swiftmodule" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/messages.g~partial.swiftmodule"
+  },
+  "/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/url_launcher_ios-6.2.4/ios/Classes/URLLauncherPlugin.swift" : {
+    "const-values" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.swiftconstvalues",
+    "dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.d",
+    "diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.o",
+    "llvm-bc" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.bc",
+    "object" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.o",
+    "swift-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.swiftdeps",
+    "swiftmodule" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin~partial.swiftmodule"
+  },
+  "/Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/url_launcher_ios-6.2.4/ios/Classes/URLLaunchSession.swift" : {
+    "const-values" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.swiftconstvalues",
+    "dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.d",
+    "diagnostics" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.o",
+    "llvm-bc" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.bc",
+    "object" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.o",
+    "swift-dependencies" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.swiftdeps",
+    "swiftmodule" : "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession~partial.swiftmodule"
+  }
+}

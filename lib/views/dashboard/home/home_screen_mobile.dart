@@ -1,6 +1,6 @@
 // ignore_for_file: unnecessary_string_interpolations
 
-import 'dart:convert';
+// import 'dart:convert';
 
 import 'package:cached_network_image/cached_network_image.dart';
 // import 'package:carousel_slider/carousel_slider.dart';
@@ -17,8 +17,8 @@ import '../../../controller/video_player_screen_controller/video_player_screen_c
 import '../../../utils/basic_screen_imports.dart';
 
 class HomeScreenMobile extends StatefulWidget {
-  const HomeScreenMobile({super.key, required });
-  
+  const HomeScreenMobile({super.key, required});
+
   @override
   State<HomeScreenMobile> createState() => _HomeScreenMobileState();
 }
@@ -27,24 +27,9 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
   final controller = Get.put(HomeScreenController());
   final detailsController = Get.put(DetailsScreenController());
   final videoPlayerController = Get.put(VideoPlayerScreenController());
-  final streamUrl = Get.put(HomeScreenController().mainStream());
-  String link = "";
-  @override
-  void initState() {
-    // ignore: unused_element
-    controller.mainStream()
-      .then((value) {
-        final url = value;
-        setState(() {
-          link = url;
-        }); 
 
-        print("value : ${url["url"]}");
-      });
-    ;
-    super.initState();
-  }
 
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -83,132 +68,45 @@ class _HomeScreenMobileState extends State<HomeScreenMobile> {
   }
 
   _bannerWidget(context) {
-    // return StreamBuilder(
-    //   stream: controller.getBannerData(),
-    //   builder: (context, snapshot) {
-    //     if (snapshot.hasError) {
-    //       return const Center(
-    //         child: Text(
-    //           "Error loading data",
-    //           style: TextStyle(
-    //             color: CustomColor.blackColor,
-    //           ),
-    //         ),
-    //       );
-    //     }
-    //     if (snapshot.connectionState == ConnectionState.waiting) {
-    //       return const Center(
-    //         child: Text(
-    //           "Loading",
-    //           style: TextStyle(
-    //             color: CustomColor.blackColor,
-    //           ),
-    //         ),
-    //       );
-    //     }
-    //     if (!snapshot.hasData) {
-    //       return const Center(
-    //         child: Text(
-    //           "No data available",
-    //           style: TextStyle(color: CustomColor.blackColor),
-    //         ),
-    //       );
-    //     } else {
-    //       return SizedBox(
-    //         height: DeviceInfo.isTv
-    //             ? MediaQuery.of(context).size.height / 2
-    //             : MediaQuery.of(context).size.height /
-    //                 4, // Adjust the height as needed
-    //         child: Stack(
-    //           children: [
-    //             CarouselSlider.builder(
-    //               itemCount: snapshot.data!.docs.length,
-    //               options: CarouselOptions(
-    //                 height: DeviceInfo.isTv
-    //                     ? MediaQuery.of(context).size.height / 2
-    //                     : MediaQuery.of(context).size.height / 3,
-    //                 // Adjust the height as needed
-    //                 viewportFraction: 1.0,
-    //                 enableInfiniteScroll: false,
-    //                 enlargeFactor: 0.0,
-    //                 autoPlay: true,
-    //                 autoPlayInterval: const Duration(seconds: 3),
-    //                 onPageChanged: (index, _) {
-    //                   controller.selectedPageIndex.value = index;
-    //                 },
-    //               ),
-    //               itemBuilder: (context, index, i) {
-    //                 var data = snapshot.data!.docs[index];
-    //                 String bannerImageUrl = data["banner_image"].toString();
-    //                 return SizedBox(
-    //                   width: MediaQuery.of(context).size.width,
-    //                   child: CachedNetworkImage(
-    //                     imageUrl: bannerImageUrl,
-    //                     maxHeightDiskCache: 1024,
-    //                     maxWidthDiskCache: 1024,
-    //                     fit: BoxFit.cover,
-    //                     placeholder: (context, url) => Shimmer.fromColors(
-    //                       baseColor: Colors.grey[300]!,
-    //                       // Choose your shimmer base color
-    //                       highlightColor: Colors.grey[100]!,
-    //                       // Choose your shimmer highlight color
-    //                       child: Container(
-    //                         width: double.infinity,
-    //                         height: double.infinity,
-    //                         color: Colors
-    //                             .white, // You can change this color as needed
-    //                       ),
-    //                     ),
-    //                     errorWidget: (context, url, error) =>
-    //                         const Icon(Icons.error),
-    //                   ),
-    //                 );
-    //               },
-    //             ),
-    //             Positioned(
-    //               bottom: 10,
-    //               left: DeviceInfo.isTv ? 420 :isTablet()?265 : 170,
-    //               child: Obx(
-    //                 () => Row(
-    //                   mainAxisAlignment: MainAxisAlignment.center,
-    //                   children: List.generate(
-    //                     snapshot.data!.docs.length,
-    //                     (index) => AnimatedContainer(
-    //                       duration: const Duration(milliseconds: 200),
-    //                       margin: EdgeInsets.only(
-    //                           right: Dimensions.marginSizeHorizontal * .3),
-    //                       height: index == controller.selectedPageIndex.value
-    //                           ? Dimensions.heightSize * .55
-    //                           : Dimensions.heightSize * .55,
-    //                       width: index == controller.selectedPageIndex.value
-    //                           ? Dimensions.widthSize * 1.75
-    //                           : Dimensions.widthSize * .75,
-    //                       decoration: BoxDecoration(
-    //                         color: index == controller.selectedPageIndex.value
-    //                             ? CustomColor.primaryLightColor
-    //                             : CustomColor.primaryLightColor.withOpacity(.3),
-    //                         borderRadius:
-    //                             BorderRadius.circular(Dimensions.radius),
-    //                       ),
-    //                     ),
-    //                   ),
-    //                 ),
-    //               ),
-    //             ),
-    //           ],
-    //         ),
-    //       );
-    //     }
-    //   },
-    // );
-
-    return SizedBox(
-      child: VideoPlayerView(
-        // url: "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-
-        url: link ,
-        dataSourceType: DataSourceType.network,
-      ),
+    return StreamBuilder(
+      stream: controller.mainStream(),
+      builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return const Center(
+            child: Text(
+              "Error loading data",
+              style: TextStyle(
+                color: CustomColor.blackColor,
+              ),
+            ),
+          );
+        }
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Center(
+            child: Text(
+              "Loading",
+              style: TextStyle(
+                color: CustomColor.blackColor,
+              ),
+            ),
+          );
+        }
+        if (!snapshot.hasData) {
+          return const Center(
+            child: Text(
+              "No data available",
+              style: TextStyle(color: CustomColor.blackColor),
+            ),
+          );
+        } else {
+          return  SizedBox(
+            child: VideoPlayerView(              
+              url: snapshot.data!["url"],
+              dataSourceType: DataSourceType.network,
+            ),
+          );
+        }
+      },
     );
   }
 

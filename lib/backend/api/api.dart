@@ -6,7 +6,6 @@ class ApiProvider {
     try {
       final response =
           await dio.get('https://voice-of-iran-republic.com/api/programs');
-
       final myapi = response.data;
       yield myapi;
     } catch (e) {
@@ -18,7 +17,6 @@ class ApiProvider {
     try {
       final response = await dio.get(
           'https://voice-of-iran-republic.com/api/programs/${programId["code"]}');
-
       return response.data;
     } catch (e) {
       rethrow;
@@ -28,7 +26,7 @@ class ApiProvider {
   Future<Map<String, dynamic>> getDetail(url) async {
     try {
       final response = await dio.get('$url');
-      // print("api.dart response ${response.data}");
+    
       return response.data;
     } catch (e) {
       rethrow;
@@ -47,13 +45,11 @@ class ApiProvider {
     }
   }
 
-  Future mainStream() async {
+  Stream mainStream() async* {
     try {
       final response =
-          await dio.get('https://voice-of-iran-republic.com/api/stream');
-      print("api.dart ${response.data}");
-
-      return response.data;
+          await dio.get('https://voice-of-iran-republic.com/api/stream');    
+      yield response.data;
     } catch (e) {
       rethrow;
     }

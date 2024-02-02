@@ -34,8 +34,6 @@ dependencies: \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/NSURLSession+GULPromises.h \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLoggerLevel.h \
-  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public/GoogleUtilities/GULOriginalIMPConvenienceMacros.h \
-  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public/GoogleUtilities/GULSwizzler.h \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Public/GoogleUtilities/GULNSData+zlib.h \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULMutableDictionary.h \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetwork.h \

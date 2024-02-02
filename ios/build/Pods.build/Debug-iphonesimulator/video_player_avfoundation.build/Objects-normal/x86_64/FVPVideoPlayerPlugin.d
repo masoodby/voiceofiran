@@ -1,8 +1,8 @@
 dependencies: \
   /Volumes/Archive/amir/main-files/iplive-app/ios/build/Pods.build/Debug-iphonesimulator/video_player_avfoundation.build/module.modulemap \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.0/darwin/Classes/FVPVideoPlayerPlugin.m \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.6/darwin/Classes/FVPVideoPlayerPlugin.m \
   /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/Target\ Support\ Files/video_player_avfoundation/video_player_avfoundation-prefix.pch \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.0/darwin/Classes/FVPVideoPlayerPlugin.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.6/darwin/Classes/FVPVideoPlayerPlugin.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Modules/module.modulemap \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/Flutter.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterAppDelegate.h \
@@ -20,6 +20,7 @@ dependencies: \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
   /opt/homebrew/Caskroom/flutter/3.10.2/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterViewController.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.0/darwin/Classes/FVPVideoPlayerPlugin_Test.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.0/darwin/Classes/AVAssetTrackUtils.h \
-  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.0/darwin/Classes/messages.g.h
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.6/darwin/Classes/FVPVideoPlayerPlugin_Test.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.6/darwin/Classes/FVPDisplayLink.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.6/darwin/Classes/messages.g.h \
+  /Users/masoodbehradiyekta/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.6/darwin/Classes/AVAssetTrackUtils.h

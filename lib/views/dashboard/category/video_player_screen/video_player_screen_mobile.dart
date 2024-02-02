@@ -1,5 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
+// import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:video_player/video_player.dart';
 
@@ -69,13 +69,13 @@ class VideoPlayerScreenMobile extends StatelessWidget {
             ),
           ),
           _gridWidget(context, data),
-          SizedBox(
-            height: Dimensions.heightSize * 3.8,
-            child: AdWidget(
-              ad: AdMobHelper.getBannerAd()..load(),
-              key: UniqueKey(),
-            ),
-          ),
+          // SizedBox(
+          //   height: Dimensions.heightSize * 3.8,
+          //   child: AdWidget(
+          //     ad: AdMobHelper.getBannerAd()..load(),
+          //     key: UniqueKey(),
+          //   ),
+          // ),
         ],
       );
     }

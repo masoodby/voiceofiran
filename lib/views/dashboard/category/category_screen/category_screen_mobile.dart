@@ -1,5 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
+// import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shimmer/shimmer.dart';
 
 import '../../../../../controller/navigation/category/category_controller.dart';
@@ -34,13 +34,13 @@ class CategoryScreenMobile extends StatelessWidget {
       },
       child: ListView(children: [
         _categoryGridWidget(context),
-        SizedBox(
-          height: 50,
-          child: AdWidget(
-            ad: AdMobHelper.getBannerAd()..load(),
-            key: UniqueKey(),
-          ),
-        ),
+        // SizedBox(
+        //   height: 50,
+        //   child: AdWidget(
+        //     ad: AdMobHelper.getBannerAd()..load(),
+        //     key: UniqueKey(),
+        //   ),
+        // ),
       ]),
     );
   }

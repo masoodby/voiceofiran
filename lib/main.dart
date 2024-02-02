@@ -9,7 +9,7 @@ import 'package:get_storage/get_storage.dart';
 import '../../../routes/routes.dart';
 import '../../../utils/theme.dart';
 import 'firebase_options.dart';
-import 'helper/admob_helper.dart';
+// import 'helper/admob_helper.dart';
 import 'language/english.dart';
 import 'language/local_string.dart';
 
@@ -51,7 +51,7 @@ void main() async {
         : DeviceOrientation.portraitDown,
   ]);
   await GetStorage.init();
-  AdMobHelper.initialization();
+  // AdMobHelper.initialization();
   // main app
   runApp(const MyApp());
 }

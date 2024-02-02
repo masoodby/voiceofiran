@@ -4,7 +4,7 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules"
+    'name': "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
@@ -13,7 +13,7 @@
     },
     {
     'type': 'directory',
-    'name': "/Volumes/Archive/amir/main-files/iplive-app/build/ios/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers"
+    'name': "/Volumes/Archive/amir/main-files/iplive-app/ios/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers"
     'contents': [{
       'type': 'file',
       'name': "FirebaseStorage-Swift.h",

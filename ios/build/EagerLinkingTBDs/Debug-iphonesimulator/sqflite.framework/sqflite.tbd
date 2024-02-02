@@ -28,17 +28,29 @@
           ],
           "objc_class": [
             "SqflitePlugin",
+            "SqfliteDarwinDatabase",
             "SqfliteDatabase",
             "PodsDummy_sqflite",
+            "SqfliteDarwinDatabaseQueue",
             "SqfliteCursor",
             "SqfliteMethodCallOperation",
             "SqfliteBatchOperation",
             "SqfliteQueuedOperation",
-            "SqfliteOperation"
+            "SqfliteDarwinResultSet",
+            "SqfliteOperation",
+            "SqfliteDarwinStatement"
+          ],
+          "objc_ivar": [
+            "SqfliteDarwinStatement._inUse",
+            "SqfliteDarwinStatement._query",
+            "SqfliteDarwinStatement._useCount",
+            "SqfliteDarwinStatement._statement"
           ]
         },
         "text": {
           "global": [
+            "_SqfliteDarwinDBBlockSQLiteCallBackFunction",
+            "_SqfliteDarwinDBExecuteBulkSQLCallback",
             "_sqfliteHasSqlLogLevel",
             "_sqfliteHasVerboseLogLevel"
           ]
@@ -59,7 +71,7 @@
     ],
     "target_info": [
       {
-        "min_deployment": "11",
+        "min_deployment": "12",
         "target": "x86_64-ios-simulator"
       },
       {

@@ -21,15 +21,17 @@
             "FLTMediaSelectionOptions",
             "FLTImagePickerPlugin",
             "FLTImagePickerPhotoAssetUtil",
+            "FLTSourceTypeBox",
             "FLTPHPickerSaveImageToPathOperation",
+            "FLTSourceCameraBox",
             "FLTImagePickerApiCodecReader",
             "FLTImagePickerImageUtil"
           ]
         },
         "text": {
           "global": [
-            "_FLTImagePickerApiGetCodec",
-            "_FLTImagePickerApiSetup"
+            "_SetUpFLTImagePickerApi",
+            "_FLTImagePickerApiGetCodec"
           ]
         }
       }
@@ -48,7 +50,7 @@
     ],
     "target_info": [
       {
-        "min_deployment": "11",
+        "min_deployment": "12",
         "target": "x86_64-ios-simulator"
       },
       {

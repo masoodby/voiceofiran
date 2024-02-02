@@ -3,7 +3,7 @@ import 'package:shimmer/shimmer.dart';
 import '../../../../widgets/webview/webview.dart';
 import '../../../../controller/details/details_screen_controller.dart';
 import '../../../../controller/video_player_screen_controller/video_player_screen_controller.dart';
-import '../../../../helper/admob_helper.dart';
+// import '../../../../helper/admob_helper.dart';
 import '../../../../main.dart';
 import '../../../../utils/basic_screen_imports.dart';
 // import '../../../../widgets/others/custom_title_subtitle_widget.dart';
@@ -89,7 +89,7 @@ class DetailsScreenMobile extends StatelessWidget {
               : MediaQuery.sizeOf(context).width * .3,
           child: InkWell(
             onTap: () {
-              AdMobHelper.getInterstitialAdLoad();
+              // AdMobHelper.getInterstitialAdLoad();
               videoPlayerController.videoUrl.value = arguments[0]["streamUrl"];
               videoPlayerController.title.value = arguments[2]["title"];
               videoPlayerController.subTitle.value = arguments[3]["subTitle"];

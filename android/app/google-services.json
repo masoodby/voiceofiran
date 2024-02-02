@@ -2,15 +2,15 @@
   "project_info": {
     "project_number": "417426193591",
     "firebase_url": "https://podlive-app-default-rtdb.firebaseio.com",
-    "project_id": "podlive-app",
-    "storage_bucket": "podlive-app.appspot.com"
+    "project_id": "voir-app",
+    "storage_bucket": "voir-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:417426193591:android:9c94469ec74ee7f0172132",
         "android_client_info": {
-          "package_name": "net.appdevs.iplive"
+          "package_name": "com.voice.of.iran.republic"
         }
       },
       "oauth_client": [
@@ -35,7 +35,7 @@
               "client_id": "417426193591-m2iprmassvfm5ufk6d6paihf2o33ipe0.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "net.appdevs.podlive"
+                "bundle_id": "com.voice.of.iran.republic"
               }
             }
           ]
@@ -46,7 +46,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:417426193591:android:cb9ed843a91f985a172132",
         "android_client_info": {
-          "package_name": "net.appdevs.podlive"
+          "package_name": "com.voice.of.iran.republic"
         }
       },
       "oauth_client": [
@@ -71,7 +71,7 @@
               "client_id": "417426193591-m2iprmassvfm5ufk6d6paihf2o33ipe0.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "net.appdevs.podlive"
+                "bundle_id": "com.voice.of.iran.republic"
               }
             }
           ]
