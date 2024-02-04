@@ -1,6 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:shimmer/shimmer.dart';
-import '../../../../widgets/webview/webview.dart';
+// import '../../../../widgets/webview/webview.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+// import 'package:iplive/widgets/others/video_player_view.dart';
+// import 'package:video_player/video_player.dart';
 import '../../../../controller/details/details_screen_controller.dart';
 import '../../../../controller/video_player_screen_controller/video_player_screen_controller.dart';
 // import '../../../../helper/admob_helper.dart';
@@ -125,16 +128,39 @@ class DetailsScreenMobile extends StatelessWidget {
   }
 
   _detailsTitleSubtitleWidget(BuildContext context, arguments) {
+    // toutube player controller
+   
+     String? videoId;
+    videoId = YoutubePlayer.convertUrlToId("https://${arguments[0]["streamUrl"]}" ?? "https://www.youtube.com/embed/mnEmwq_rsLw");
+    print("videoId $videoId"); // BBAyRBTfsOU
+
+    final YoutubePlayerController youtubeController = YoutubePlayerController(
+
+      initialVideoId: videoId ?? "mnEmwq_rsLw" ,
+      flags: const YoutubePlayerFlags(
+        autoPlay: true,
+        mute: false,
+      ),
+    );   
+
+   // BBAyRBTfsOU
+    print(arguments[0]["streamUrl"]);
     return Padding(
       padding: EdgeInsets.only(
         left: Dimensions.paddingSize,
         right: Dimensions.paddingSize,
       ),
-      child: SizedBox(
-        width: 200,
-        height: 200,
-        child: WebView(video:arguments[0]["streamUrl"]),
-        ),
+      child:  SizedBox(
+          width: 200,
+          height: 200,
+          // child: WebView(video:arguments[0]["streamUrl"]),
+          child: YoutubePlayer(
+            controller: youtubeController,
+             bottomActions: [
+            CurrentPosition(),
+            ProgressBar(isExpanded: true),            
+            ],)
+            ),
     );
   }
 

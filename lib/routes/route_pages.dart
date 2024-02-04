@@ -13,7 +13,7 @@ import '../views/dashboard/home/live_podcast_screen/live_podcast_screen.dart';
 import '../views/dashboard/settings/settings_screen.dart';
 import '../views/example/example.dart';
 import '../views/splash_screen/splash_screen.dart';
-import '../widgets/others/in_app_web_view_widget.dart';
+// import '../widgets/others/in_app_web_view_widget.dart';
 
 class RoutePageList {
   static var list = [
@@ -53,20 +53,20 @@ class RoutePageList {
       name: Routes.detailsScreen,
       page: () => const DetailsScreen(),
     ),
-    GetPage(
-      name: Routes.privacyPolicy,
-      page: () => WebViewScreen(
-        title: Strings.privacyAndPolicy,
-        url: AppConfig.policyLink,
-      ),
-    ),
+    // GetPage(
+    //   name: Routes.privacyPolicy,
+    //   page: () => WebViewScreen(
+    //     title: Strings.privacyAndPolicy,
+    //     url: AppConfig.policyLink,
+    //   ),
+    // ),
     //about us
-    GetPage(
-      name: Routes.aboutUs,
-      page: () => WebViewScreen(
-        title: Strings.aboutUs,
-        url: AppConfig.aboutUsLink,
-      ),
-    ),
+    // GetPage(
+    //   name: Routes.aboutUs,
+    //   page: () => WebViewScreen(
+    //     title: Strings.aboutUs,
+    //     url: AppConfig.aboutUsLink,
+    //   ),
+    // ),
   ];
 }

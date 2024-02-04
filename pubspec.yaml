@@ -44,11 +44,10 @@ dependencies:
   shimmer: ^3.0.0
   cached_network_image: ^3.3.0
   flutter_rating_bar: ^4.0.1
-  flutter_inappwebview: ^5.8.0
   device_info_plus: ^9.1.0
   chewie: ^1.7.1
   dio: ^5.4.0
-  webview_flutter: ^4.4.4
+  youtube_player_flutter: ^8.1.2
   
 
 dependency_overrides:

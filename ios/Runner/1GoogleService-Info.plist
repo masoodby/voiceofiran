@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>851952738758-m7qhg04fs18128jlsjlog1vemmhstr0r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.851952738758-m7qhg04fs18128jlsjlog1vemmhstr0r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDBQHDdH4h57TV3BkKAK0jEMZHV0BA_tHQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>851952738758</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>net.appdevs.iplive</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>PROJECT_ID</key>
+	<string>net.appdevs.iplive</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.appdevs.iplive</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>STORAGE_BUCKET</key>
+	<string>podlive-testuser-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:851952738758:ios:42d1641f9b41ad930412c7</string>
+</dict>
+</plist>

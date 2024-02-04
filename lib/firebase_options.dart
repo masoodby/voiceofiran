@@ -55,7 +55,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '417426193591',
     projectId: 'podlive-app',
     databaseURL: 'https://podlive-app-default-rtdb.firebaseio.com',
-    storageBucket: 'podlive-app.appspot.com',
+    storageBucket: 'voir-app.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -64,7 +64,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '417426193591',
     projectId: 'podlive-app',
     databaseURL: 'https://podlive-app-default-rtdb.firebaseio.com',
-    storageBucket: 'podlive-app.appspot.com',
-    iosBundleId: 'net.appdevs.iplive',
+    storageBucket: 'voir-app.appspot.com',
+    iosBundleId: 'com.voice.of.iran.republic',
   );
 }

@@ -2,22 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>417426193591-m2iprmassvfm5ufk6d6paihf2o33ipe0.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.417426193591-m2iprmassvfm5ufk6d6paihf2o33ipe0</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAmRebwxqn9-tcHAWJlu5tw5vz33YfOOgQ</string>
+	<string>AIzaSyDKBvYFid67h_zREONa8HXgwP9HGY5aFrk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>417426193591</string>
+	<string>731997090495</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>net.appdevs.iplive</string>
+	<string>com.voice.of.iran.republic</string>
 	<key>PROJECT_ID</key>
-	<string>podlive-app</string>
+	<string>voir-c2182</string>
 	<key>STORAGE_BUCKET</key>
-	<string>podlive-app.appspot.com</string>
+	<string>voir-c2182.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:417426193591:ios:cab48e0a093bd3c6172132</string>
+	<string>1:731997090495:ios:ec3ec996ddc969bce64c0a</string>
 </dict>
 </plist>
