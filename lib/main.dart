@@ -12,6 +12,7 @@ import 'firebase_options.dart';
 // import 'helper/admob_helper.dart';
 import 'language/english.dart';
 import 'language/local_string.dart';
+// import FlutterPluginRegistrant;
 
 class DeviceInfo {
   static bool isTv = false;
