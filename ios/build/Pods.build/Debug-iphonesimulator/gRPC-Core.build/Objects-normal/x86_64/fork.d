@@ -1,0 +1,19 @@
+dependencies: \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/src/core/lib/gprpp/fork.cc \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/support/port_platform.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/port_platform.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/src/core/lib/gprpp/fork.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/gpr_types.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/support/atm.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/atm.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/atm_gcc_atomic.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/support/sync.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/sync.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/sync_generic.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/impl/codegen/sync_posix.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/support/time.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/src/core/lib/gprpp/global_config_env.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/src/core/lib/gprpp/global_config_generic.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/src/core/lib/gprpp/memory.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/gRPC-Core/include/grpc/support/alloc.h

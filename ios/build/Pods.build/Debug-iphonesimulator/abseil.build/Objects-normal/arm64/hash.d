@@ -1,0 +1,35 @@
+dependencies: \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/hash/internal/hash.cc \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/Target\ Support\ Files/abseil/abseil-prefix.pch \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/hash/internal/hash.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/config.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/options.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/policy_checks.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/internal/unaligned_access.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/attributes.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/port.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/optimization.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/container/fixed_array.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/algorithm/algorithm.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/dynamic_annotations.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/macros.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/internal/dynamic_annotations.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/internal/throw_delegate.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/container/internal/compressed_tuple.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/utility/utility.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/internal/inline_variable.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/internal/identity.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/base/internal/invoke.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/meta/type_traits.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/memory/memory.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/hash/internal/city.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/hash/internal/low_level_hash.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/numeric/int128.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/numeric/int128_have_intrinsic.inc \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/strings/string_view.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/types/optional.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/types/bad_optional_access.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/types/internal/optional.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/types/variant.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/types/internal/variant.h \
+  /Volumes/Archive/amir/main-files/iplive-app/ios/Pods/abseil/absl/types/bad_variant_access.h
